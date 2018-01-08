@@ -1,0 +1,28 @@
+{
+  "name": "split-hash-webpack-plugin",
+  "version": "0.0.1",
+  "description": "plugin to replace a standard webpack chunkhash with md5. modify chunk's hash in case child chunk's hash change but main file's hash don't change yet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunkkaliu/split-hash-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "hash",
+    "plugin",
+    "md5"
+  ],
+  "author": "kunkkaliu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kunkkaliu/split-hash-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/kunkkaliu/split-hash-webpack-plugin#readme",
+  "dependencies": {
+    "md5": "^2.2.1"
+  }
+}
